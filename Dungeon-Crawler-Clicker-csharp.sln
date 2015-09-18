@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{15A9EA6F-6AB3-8B57-E435-6AC7059BB137}") = "Dungeon-Crawler-Clicker", "Assembly-CSharp-vs.csproj", "{B8614EBD-2E78-9DC1-763F-4DCF9ADEAC05}"
+EndProject
+Project("{15A9EA6F-6AB3-8B57-E435-6AC7059BB137}") = "Dungeon-Crawler-Clicker", "Assembly-CSharp-Editor-vs.csproj", "{4F9AC4C8-90EC-7013-8F79-EA0176791CF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8614EBD-2E78-9DC1-763F-4DCF9ADEAC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8614EBD-2E78-9DC1-763F-4DCF9ADEAC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8614EBD-2E78-9DC1-763F-4DCF9ADEAC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8614EBD-2E78-9DC1-763F-4DCF9ADEAC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F9AC4C8-90EC-7013-8F79-EA0176791CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F9AC4C8-90EC-7013-8F79-EA0176791CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F9AC4C8-90EC-7013-8F79-EA0176791CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F9AC4C8-90EC-7013-8F79-EA0176791CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+																																																		GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.IndentWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+
+EndGlobal
