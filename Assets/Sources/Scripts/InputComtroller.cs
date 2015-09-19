@@ -1,21 +1,22 @@
 ﻿using UnityEngine;
 using System.Collections;
-using Entitas;
 
 public class InputComtroller : MonoBehaviour
 {
     // Update is called once per frame
-    Entity _Enitity;
+    
 
     void Start()
     {
-        _Enitity = Pools.pool.CreateEntity();
+        
     }
 
 
     public void UpArrow ()
     {
-        _Enitity.IsInteractive(true);
+        EventArgs e = new EventArgs();
+        e.arg1 = "Hello World";
+        EventManager.Instance.Raise(e);
 
     }
 
@@ -25,4 +26,6 @@ public class InputComtroller : MonoBehaviour
       
 
     }
+
+
 }
